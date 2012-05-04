@@ -6,7 +6,7 @@ if [ ! $(which git) ]; then
   exit
 fi
 
-RBENV_ROOT="$HOME/.rbenv"
+RBENV_ROOT="$OPENSHIFT_DATA_DIR/.rbenv"
 
 # Install rbenv:
 if [ ! -d "$RBENV_ROOT" ] ; then
