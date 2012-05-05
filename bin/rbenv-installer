@@ -21,7 +21,7 @@ fi
 # Install plugins:
 PLUGINS=( "sstephenson:rbenv-vars"
           "sstephenson:ruby-build"
-          "fesplugas:rbenv-installer" )
+          "Seppone:rbenv-installer" )
 
 for plugin in ${PLUGINS[@]} ; do
 
