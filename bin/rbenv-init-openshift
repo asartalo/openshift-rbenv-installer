@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [ -d \$OPENSHIFT_DATA_DIR/.rbenv ]; then
-  export PATH=\"\$OPENSHIFT_DATA_DIR/.rbenv/bin:\$PATH\"
-  eval \"\$(rbenv init -)\"
+if [ -d $OPENSHIFT_DATA_DIR/.rbenv ]; then
+  export PATH="$OPENSHIFT_DATA_DIR/.rbenv/bin:$PATH"
+  eval "$(rbenv init -)"
 fi
