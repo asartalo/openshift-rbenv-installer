@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 if [ -d \$OPENSHIFT_DATA_DIR/.rbenv ]; then
   export PATH=\"\$OPENSHIFT_DATA_DIR/.rbenv/bin:\$PATH\"
