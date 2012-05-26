@@ -22,6 +22,10 @@ Configuration
     export RBENV_ROOT=$OPENSHIFT_DATA_DIR/.rbenv
     export PATH="$RBENV_ROOT/bin:$PATH"
     eval "$(rbenv init -)"
+    
+or just loading rbenv with
+
+    . $OPENSHIFT_DATA_DIR/.rbenv/plugins/openshift-rbenv-installer/bin/rbenv-bootstrap-openshift
 
 
 Installing a Ruby
