@@ -13,7 +13,7 @@ Install
 
 Install [rbenv] and friends by running:
 
-    curl -L https://rawgithub.com/Seppone/openshift-rbenv-installer/master/bin/rbenv-installer | bash
+    curl -L https://rawgithub.com/asartalo/openshift-rbenv-installer/master/bin/rbenv-installer | bash
 
 
 Configuration
@@ -22,7 +22,7 @@ Configuration
     export RBENV_ROOT=$OPENSHIFT_DATA_DIR/.rbenv
     export PATH="$RBENV_ROOT/bin:$PATH"
     eval "$(rbenv init -)"
-    
+
 or just loading rbenv with
 
     . $OPENSHIFT_DATA_DIR/.rbenv/plugins/openshift-rbenv-installer/bin/rbenv-bootstrap-openshift

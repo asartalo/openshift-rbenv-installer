@@ -21,7 +21,7 @@ fi
 # Install plugins:
 PLUGINS=( "sstephenson:rbenv-vars"
           "sstephenson:ruby-build"
-          "Seppone:openshift-rbenv-installer" )
+          "asartalo:openshift-rbenv-installer" )
 
 for plugin in ${PLUGINS[@]} ; do
 
